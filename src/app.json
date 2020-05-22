@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/indetail/main",
+    "pages/player/main",
+    "pages/perAnchor/main",
+    "pages/detail/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/classification/main",
+    "pages/collection/main",
+    "pages/user/main",
+    "pages/list/main",
+    "pages/enjoyListening/main"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "声动陕西",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "/static/tabs/home-icon.png",
+        "selectedIconPath": "/static/tabs/home-selectIcon.png"
+      },
+      {
+        "pagePath": "pages/list/main",
+        "text": "分类",
+        "iconPath": "/static/tabs/fen-icon.png",
+        "selectedIconPath": "/static/tabs/fen-selectIcon.png"
+      },
+      {
+        "pagePath": "pages/enjoyListening/main",
+        "text": "享听",
+        "iconPath": "/static/tabs/music-icon.png",
+        "selectedIconPath": "/static/tabs/music-selectIcon.png"
+      },
+      {
+        "pagePath": "pages/user/main",
+        "text": "我的",
+        "iconPath": "/static/tabs/user-icon.png",
+        "selectedIconPath": "/static/tabs/user-selectIcon.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
